@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Form Page</title>
+	<script src="f_file_upload_from_pc.js"></script>
+</head>
+<body>
+<h1>Upload a File</h1>
+<form id="temp_form" action=http://localhost:8080/newServlet_war/servlet method="post"
+	  enctype="multipart/form-data">
+	<!--<form id="temp_form" action=/acts/recognize method="post" enctype="multipart/form-data">-->
+	<p>
+		Select a file : <input type="file" name="file" size="50" />
+	</p>
+	<input type="hidden" name="ws_code" id="shopCode" value="shopCode" style="display:none">
+	<input type="text" name="token" id="123414" value="123414" style="display:none">
+	<input type="submit" value="Upload It"/>
+</form>
+</body>
+</html>
